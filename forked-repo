@@ -1,4 +1,4 @@
-theia@theia-ericlbrault:/home/project/github-final-project$ curl -s https://api.github.com/repos/ericlbrault/github-final-project
+curl -s https://api.github.com/repos/ericlbrault/github-final-project
 {
   "id": 1251665839,
   "node_id": "R_kgDOSprnrw",
