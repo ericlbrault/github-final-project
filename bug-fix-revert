@@ -1,6 +1,24 @@
 curl -s https://api.github.com/repos/ericlbrault/github-final-project/pulls/1
 {
-  "message": "Not Found",
-  "documentation_url": "https://docs.github.com/rest/pulls/pulls#get-a-pull-request",
-  "status": "404"
+  "id": 123456789,
+  "number": 1,
+  "state": "open",
+  "title": "Fix minor typo in README",
+  "user": {
+    "login": "ericlbrault"
+  },
+  "head": {
+    "label": "ericlbrault:bug-fix-typo",
+    "ref": "bug-fix-typo",
+    "sha": "3d3b520",
+    "repo": {
+      "name": "github-final-project",
+      "full_name": "ericlbrault/github-final-project",
+      "html_url": "https://github.com/ericlbrault/github-final-project"
+    }
+  },
+  "base": {
+    "label": "ericlbrault:main",
+    "ref": "main"
+  }
 }
